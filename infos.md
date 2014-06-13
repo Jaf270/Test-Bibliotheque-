@@ -3,7 +3,7 @@ Test-Bibliotheque-
 
 Création d'un site web pour un test de stage
 
-##### Installation du projet
+### Installation du projet
   Ce projet a été réalisé en utiliant le package `wamp`. Ce package contient tout le nécessaire pour le développement *d'application web php* :
   - le serveur web **Apache** , 
   - le plugin à ce serveur **PHP** ,
@@ -30,7 +30,7 @@ En plus l'identifiant d'un lecteur:
 * Login: *bassoute* 
 * Mdp: *amor*
 
-##### Travail demandé
+### Travail demandé
 - Deux facades :
 * Une vitrine ou l'utilisateur pourra s'inscrire, visualiser la liste des livres disponibles et en emprunter.
 * Le bibliothécaire pourra ajouter / éditer / supprimer / lister les livres. Pour les livres empruntés, il pourra connaître le nom de l'utilisateur qui possède le livre. Pour faciliter le developpement, on considerera que le bibliothécaire possède un seul exemplaire par livre, mais il faudra penser à une evolution possible.
@@ -40,12 +40,12 @@ En plus l'identifiant d'un lecteur:
 * Emprunter des livres disponibles
 * Ajouter / Editer / Supprimer / Lister les livre
 
-##### Fonctionnalités ajoutés
+### Fonctionnalités ajoutés
 - Le bibliothécaire possède plusieurs exemplaires par livre. Un lecteur peut emprunter autant de fois un livre tant qu'il en reste des exemplaires
 - La remise de livres empruntés
 - Enregistrement dans la base de données la date d'emprunt d'un livre et calcul de la date de retour obligatoire ( intervalle de 14 jours)
 
-##### Bugs ou fonctionnalités manquantes
+### Bugs ou fonctionnalités manquantes
 - Lors de la connexion d'un lecteur qui n'a pas encore emprunté de livre, une div vide s'affiche dans la rubrique dernier livre emprunté
 - Des soucis d'ergonomie: 
 * l'ajout d'un nouveau livre à la base par un bibliothécaire n'est pas notifié
@@ -53,7 +53,7 @@ En plus l'identifiant d'un lecteur:
 - L'ecriture d'un mauvais lien ne redirige par vers une page 404 error
 - la synthaxe des url : contient des .php, les paramètres des méthodes GET etc. Pas de *url-rewritting*
 
-##### Remarques supplémentaires
+### Remarques supplémentaires
   En conclusion du projet: 
   Jai souhaité modifier un peu le concept de base du site web demandé. J'avais l'objectif de faire un site web d'emprunt de livre en ligne au bord du réseau social. Un utilisateur pourrais donc emprunter des livres, mais également avoir un profil, noter les livres emprunter et les recommander à la communauté du site web, voir dès sa connection les livres qu'il doit bientot remettre etc.
   Rien de tout ceci n'a été clairement finalisé faute de temps mais j'espere que le site web vous plaiera, je vous souhaite une bonne visite ! 
